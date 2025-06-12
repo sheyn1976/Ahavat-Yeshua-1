@@ -44,12 +44,8 @@ class UITests: Runner {
         }
     //NavigationTabBar
 }
-
-//MARK: HOME WORK!
-
-// Test check if navigation bar functional is working : all buttons exist =4 and highlighting (isSelected)
-
-func testNavigationBar(){
+//func testNavigationBar(){
+  //  print ("")
     // home tab 'isSelected'
     // app.tabBars.buttons.count == 4
     
@@ -67,5 +63,8 @@ func testNavigationBar(){
     
     // home tab - tap
     // feed tab 'isSelected'
-}
+
+
+
+
 

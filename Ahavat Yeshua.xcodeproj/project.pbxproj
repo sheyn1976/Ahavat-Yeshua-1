@@ -60,6 +60,8 @@
 		08E629222ADF64C100891626 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E629212ADF64C100891626 /* NetworkError.swift */; };
 		08E629242ADF687F00891626 /* RequestSending.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E629232ADF687F00891626 /* RequestSending.swift */; };
 		08E629262ADF6B8C00891626 /* Fetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E629252ADF6B8C00891626 /* Fetching.swift */; };
+		D7A021222DFA187900F1DB3B /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A021212DFA187900F1DB3B /* File.swift */; };
+		D7A021242DFA18FF00F1DB3B /* NavigationBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A021232DFA18DF00F1DB3B /* NavigationBar.swift */; };
 		D7FA91F12DF0E3890071796C /* Runner.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA91F02DF0E37E0071796C /* Runner.swift */; };
 		D7FA91F32DF0EA8B0071796C /* Extantions +XCUIElement .swift in Sources */ = {isa = PBXBuildFile; fileRef = D7FA91F22DF0E91E0071796C /* Extantions +XCUIElement .swift */; };
 /* End PBXBuildFile section */
@@ -153,6 +155,8 @@
 		08E629212ADF64C100891626 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 		08E629232ADF687F00891626 /* RequestSending.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestSending.swift; sourceTree = "<group>"; };
 		08E629252ADF6B8C00891626 /* Fetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetching.swift; sourceTree = "<group>"; };
+		D7A021212DFA187900F1DB3B /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		D7A021232DFA18DF00F1DB3B /* NavigationBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBar.swift; sourceTree = "<group>"; };
 		D7FA91F02DF0E37E0071796C /* Runner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runner.swift; sourceTree = "<group>"; };
 		D7FA91F22DF0E91E0071796C /* Extantions +XCUIElement .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extantions +XCUIElement .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,6 +191,7 @@
 		081715AD2B87DEAA00CBC667 /* UITests */ = {
 			isa = PBXGroup;
 			children = (
+				D7A021232DFA18DF00F1DB3B /* NavigationBar.swift */,
 				D7FA91F22DF0E91E0071796C /* Extantions +XCUIElement .swift */,
 				081715AE2B87DEAA00CBC667 /* UITests.swift */,
 				D7FA91F02DF0E37E0071796C /* Runner.swift */,
@@ -255,6 +260,7 @@
 		08AB17292ABBCCE300813AA4 = {
 			isa = PBXGroup;
 			children = (
+				D7A021212DFA187900F1DB3B /* File.swift */,
 				08AB17342ABBCCE300813AA4 /* Ahavat Yeshua */,
 				081715AD2B87DEAA00CBC667 /* UITests */,
 				086EE07A2DB1E86C007515C6 /* Ahavat Yeshua Widget */,
@@ -543,6 +549,7 @@
 				081715AF2B87DEAA00CBC667 /* UITests.swift in Sources */,
 				D7FA91F32DF0EA8B0071796C /* Extantions +XCUIElement .swift in Sources */,
 				D7FA91F12DF0E3890071796C /* Runner.swift in Sources */,
+				D7A021242DFA18FF00F1DB3B /* NavigationBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -598,6 +605,7 @@
 				086EE09F2DB2C08C007515C6 /* FaithQuizView.swift in Sources */,
 				086EE0652DB1C876007515C6 /* TodoView.swift in Sources */,
 				08AB17842ABD360900813AA4 /* BibleVerseView.swift in Sources */,
+				D7A021222DFA187900F1DB3B /* File.swift in Sources */,
 				08AB17862ABD397800813AA4 /* BibleVerseViewModel.swift in Sources */,
 				086EE0A12DB2C0A6007515C6 /* HolyPlacesMapView.swift in Sources */,
 				08AB17492ABBD00900813AA4 /* ExploreView.swift in Sources */,
